@@ -1,0 +1,27 @@
+.toolbar {
+    height: 50px;
+    padding: 10px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.line {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.flex {
+    display: flex;
+}
+.grow1 {
+    flex: 1;
+}
+.j-center {
+    justify-content: center;
+}
+.f-end {
+    justify-content: flex-end;
+}
